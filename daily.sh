@@ -1,1 +1,2 @@
-vim `python3 daily.py`
+DIR=$(dirname "$(realpath "$0")")
+vim $(python3 $DIR/daily.py)
