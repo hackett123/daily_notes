@@ -2,7 +2,7 @@ from datetime import date
 import os
 import calendar
 
-DAILY_ROOT = os.path.join(os.path.expanduser("~"), "daily")
+DAILY_ROOT = os.path.join(os.path.expanduser("~"), "notes/daily")
 FILETYPE = "md"
 
 today = date.today()

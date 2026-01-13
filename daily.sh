@@ -1,2 +1,2 @@
 DIR=$(dirname "$(realpath "$0")")
-vim $(python3 $DIR/daily.py)
+nvim $(python3 $DIR/daily.py)
